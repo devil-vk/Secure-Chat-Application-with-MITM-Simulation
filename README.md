@@ -34,8 +34,8 @@ does not expose the payload:
 ```
   ┌─────────────┐   TLS 1.2/1.3 (authenticated, CA-verified)   ┌─────────────┐
   │   client    │  ═══════════════════════════════════════════ │   server    │
-  │             │  ── inside: AES-256-GCM over DH session key ─│             │
-  └─────────────┘                                              └─────────────┘
+  │             │   ── inside: AES-256-GCM over DH session key ─│             │
+  └─────────────┘                                               └─────────────┘
 ```
 
 1. **Transport layer — SSL/TLS.** The server presents an X.509 certificate
