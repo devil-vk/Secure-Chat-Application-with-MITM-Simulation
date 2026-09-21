@@ -1,0 +1,23 @@
+# Build artefacts
+build/
+bin/
+*.o
+*.obj
+*.a
+
+# Generated certificates and keys — never commit private keys.
+certs/*.crt
+certs/*.key
+certs/*.csr
+certs/*.srl
+certs/*.ext
+
+# Downloaded / runtime files
+downloaded_*
+*.log
+
+# Editor / OS cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
