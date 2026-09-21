@@ -153,7 +153,3 @@ The `mitm_proxy` tool is provided for **education on the developer's own
 machine**. It only intercepts traffic between a client and server you run
 yourself on loopback, and its purpose is to demonstrate the value of certificate
 validation. Do not point it at systems you do not own or have permission to test.
-
-## License
-
-MIT — see [`LICENSE`](LICENSE).
